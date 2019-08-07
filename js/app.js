@@ -1,7 +1,9 @@
 'use.strict';
 
-var name = prompt('Hello! Thank you for visiting my profile! My name is Karina. What is your name?');
-var playGame = confirm('Hi '+ name +'! It is so nice to meet you :) \nDo you want to play a little guessing game with me?');
+var username = prompt('Hello! Thank you for visiting my profile! My name is Karina. What is your name?');
+console.log('Username is ' + username);
+
+var playGame = confirm('Hi '+ username +'! It is so nice to meet you :) \nDo you want to play a little guessing game with me?');
 
 if (playGame) {
   confirm('Yay! Are you ready? Here comes the first question!');
@@ -77,7 +79,7 @@ if (playGame) {
     alert('Sorry that is not correct.');
   }
 
-  confirm ('Thank you for playing this game with me ' + name +'! Hope you had fun! Now I\'m taking you to my profile so you can know more about me.');
+  confirm ('Thank you for playing this game with me ' + username +'! Hope you had fun! Now I\'m taking you to my profile so you can know more about me.');
 }
 else {
   alert('Aww I really wanted to play this game with you! Maybe next time!');}
