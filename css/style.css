@@ -1,0 +1,20 @@
+<style>
+  a:link {color: rgb(78, 86, 202);}
+  a:hover {color: rgb(96, 165, 245);}
+  body {font-family: "Adobe Hebrew", "Times New Roman";  
+        background-color: rgb(235, 238, 245);}
+  footer {font-weight: bold;
+          line-height:1em}
+  h1 {background-color: rgb(5, 19, 75);
+      color: rgb(238, 239, 245);
+      font-size: 1.8em;
+      line-height:85px;}
+  h2 {color: rgb(15, 25, 134); 
+      font-size: 1.5em;
+      line-height: 20px;}
+  h4 {color: rgb(19, 33, 184);
+      font-size: 1.15em;
+      line-height: 15px}
+  p {font-size:1em;
+    line-height:17px;}
+</style>
