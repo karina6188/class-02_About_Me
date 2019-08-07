@@ -1,18 +1,44 @@
-  a:link {color: rgb(78, 86, 202);}
-  a:hover {color: rgb(96, 165, 245);}
-  body {font-family: "Adobe Hebrew", "Times New Roman";  
-        background-color: rgb(235, 238, 245);}
-  footer {font-weight: bold;
-          line-height:1em}
-  h1 {background-color: rgb(5, 19, 75);
-      color: rgb(238, 239, 245);
-      font-size: 1.8em;
-      line-height:85px;}
-  h2 {color: rgb(15, 25, 134); 
-      font-size: 1.5em;
-      line-height: 20px;}
-  h4 {color: rgb(19, 33, 184);
-      font-size: 1.15em;
-      line-height: 15px}
-  p {font-size:1em;
-    line-height:17px;}
+a:link {color: rgb(78, 86, 202);}
+a:hover {color: rgb(96, 165, 245);}
+body {font-family: "Adobe Hebrew", "Times New Roman";  
+      background-color: rgb(235, 238, 245);
+      margin: 10px;
+      padding: 6px;}
+footer {font-weight: bold;
+        line-height:1em}
+h1 {background-color: rgb(5, 19, 75);
+    border-width:6px;
+    border-style: dotted;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #777777; 
+    color: rgb(238, 239, 245);
+    font-size: 1.8em;
+    line-height:65px;
+    margin: 10px;
+    padding: 25px;}
+h2 {color: rgb(15, 25, 134); 
+    font-size: 1.5em;
+    line-height: 40px;
+    margin: 10px;}
+h2#contact {
+    line-height: 30px;
+    padding-top: 80px;     
+}
+h2#story {
+    padding-top: 20px;
+}
+h4 {color: rgb(19, 33, 184);
+    font-size: 1.15em;
+    line-height: 25px;
+    margin: 10px;}
+li.contactInfo {
+    display: inline;
+    margin-right: 30px;
+}
+p {font-size:1em;
+    line-height:17px;
+    margin: 10px;}
+p.funFactsRecessed {
+    padding-left: 20px;
+}
+ul {list-style-type: square;}
