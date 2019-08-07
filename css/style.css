@@ -12,8 +12,8 @@ h1 {background-color: rgb(5, 19, 75);
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 5px 5px #777777; 
     color: rgb(238, 239, 245);
-    font-size: 1.8em;
-    line-height:65px;
+    font-size: 2.5em;
+    line-height: 65px;
     margin: 10px;
     padding: 25px;}
 h2 {color: rgb(15, 25, 134); 
@@ -35,8 +35,9 @@ li.contactInfo {
     display: inline;
     margin-right: 30px;
 }
-p {font-size:1em;
-    line-height:17px;
+ol {line-height: 19px;}
+p {font-size: 1em;
+    line-height: 17px;
     margin: 10px;}
 p.funFactsRecessed {
     padding-left: 20px;
