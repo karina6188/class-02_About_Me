@@ -25,7 +25,7 @@ if (hello) {
     console.log('Q2. Major = correct');
   }
   else {
-    console.log('Q2. Major = wrong')
+    console.log('Q2. Major = wrong');
   }
   if (major[0] === 'y'){
     alert('You got it right!');
