@@ -1,8 +1,9 @@
 'use.strict';
 
-var hello = confirm('Hello! Thank you for visiting my profile! Let\'s play a little guessing game first :]');
+var name = prompt('Hello! Thank you for visiting my profile! My name is Karina. What is your name?');
+var playGame = confirm('Hi '+ name +'! It is so nice to meet you :) \nDo you want to play a little guessing game with me?');
 
-if (hello) {
+if (playGame) {
   confirm('Yay! Are you ready? Here comes the first question!');
 
   var nationality = prompt('Q1. Was I orginally from Canada? Yes/No').toLowerCase();
@@ -62,7 +63,7 @@ if (hello) {
     alert('Sorry that is not correct.');
   }
 
-  var fruit = prompt('Wow! You made it to the last question.\n Q5. Do I like to eat bananas? Yes/No').toLowerCase();
+  var fruit = prompt('Wow! You made it to the last question.\nQ5. Do I like to eat bananas? Yes/No').toLowerCase();
   if (fruit[0] === 'y') {
     console.log('Q5. Like Bananas = wrong');
   }
@@ -76,7 +77,7 @@ if (hello) {
     alert('Sorry that is not correct.');
   }
 
-  confirm ('Thank you for playing this game with me. Hope you had fun! Now I\'m taking you to my profile so you can know more about me!');
+  confirm ('Thank you for playing this game with me ' + name +'! Hope you had fun! Now I\'m taking you to my profile so you can know more about me.');
 }
 else {
   alert('Aww I really wanted to play this game with you! Maybe next time!');}
