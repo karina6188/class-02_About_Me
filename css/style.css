@@ -29,7 +29,9 @@ h4 {color: rgb(19, 33, 184);
     margin: 10px;}
 li.contactInfo {display: inline;
     margin-right: 30px;}
-img {float: right;}
+img {float: right;
+    margin: 0px 50px 0px 0px;
+    width: 500px;}
 ol {line-height: 19px;}
 p {font-size: 1em;
     line-height: 17px;
