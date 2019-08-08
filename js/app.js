@@ -17,18 +17,18 @@ if (playGame) {
   var nationality = prompt('Q1. Was I orginally from Canada? Yes/No').toLowerCase();
 
   switch (nationality.charAt(0)) {
-    case 'n':
-      console.log('Q1. Nationality = correct');
-      alert('You got it right!');
-      point++;
-      break;
-    case 'y':
-      console.log('Q1. Nationality = wrong');
-      alert('Sorry that is not correct.');
-      break;
-    default:
-      console.log('Invalid Input...');
-      break;
+  case 'n':
+    console.log('Q1. Nationality = correct');
+    alert('You got it right!');
+    point++;
+    break;
+  case 'y':
+    console.log('Q1. Nationality = wrong');
+    alert('Sorry that is not correct.');
+    break;
+  default:
+    console.log('Invalid Input...');
+    break;
   }
 
 
@@ -47,51 +47,42 @@ if (playGame) {
 
   // Question 3 - Yes/No or Y/N
   var moveTime = prompt('Q3. Did I move to USA 7 years ago? Yes/No').toLowerCase();
-  if (moveTime[0] === 'y') {
+  if (moveTime.startsWith(0) === 'y') {
     console.log('Q3. Move Time to USA = wrong');
+    alert('Sorry that is not correct.');
   }
   else {
     console.log('Q3. Move Time to USA = correct');
-  }
-  if (moveTime[0] === 'n') {
     alert('You got it right!');
     point++;
   }
-  else {
-    alert('Sorry that is not correct.');
-  }
+
 
   // Question 4 - Yes/No or Y/N
   var country = prompt('Q4. Have I ever been to Spain? Yes/No').toLowerCase();
-  if (country[0] === 'y') {
+  if (country.startWith(0) === 'y') {
     console.log('Q4. Been to Spain = wrong');
+    alert('Sorry that is not correct.');
   }
   else {
     console.log('Q4. Been to Spain = correct');
-  }
-  if (country[0] === 'n') {
     alert('You got it right!');
     point++;
   }
-  else {
-    alert('Sorry that is not correct.');
-  }
+
 
   // Question 5 - Yes/No or Y/N
   var fruit = prompt('Q5. Do I like to eat bananas? Yes/No').toLowerCase();
-  if (fruit[0] === 'y') {
+  if (fruit.startWith(0) === 'y') {
     console.log('Q5. Like Bananas = wrong');
+    alert('Sorry that is not correct.');
   }
   else {
     console.log('Q5. Like Bananas = correct');
-  }
-  if (fruit[0] === 'n') {
     alert('You got it right!');
     point++;
   }
-  else {
-    alert('Sorry that is not correct.');
-  }
+
 
   // Question 6 - Answer in a number. Has 4 attempts.
   var guessNumberOfCarsRight = false;
