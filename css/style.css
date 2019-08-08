@@ -14,32 +14,33 @@ h1 {background-color: rgb(5, 19, 75);
     color: rgb(238, 239, 245);
     font-size: 2.5em;
     line-height: 65px;
-    margin: 10px;
+    margin: 10px 10px 50px 10px;
     padding: 25px;}
 h2 {color: rgb(15, 25, 134); 
     font-size: 1.5em;
     line-height: 40px;
     margin: 10px;}
-h2#contact {
-    line-height: 30px;
-    padding-top: 80px;     
-}
-h2#story {
-    padding-top: 20px;
-}
+h2#contact {line-height: 30px;
+    padding-top: 80px;}
+h2#story {padding-top: 20px;}
 h4 {color: rgb(19, 33, 184);
     font-size: 1.15em;
     line-height: 25px;
     margin: 10px;}
-li.contactInfo {
-    display: inline;
-    margin-right: 30px;
-}
+li.contactInfo {display: inline;
+    margin-right: 30px;}
+img {float: right;}
 ol {line-height: 19px;}
 p {font-size: 1em;
     line-height: 17px;
     margin: 10px;}
 p.funFactsRecessed {
-    padding-left: 20px;
-}
+    padding-left: 20px;}
+p.nav {background-color: rgb(75, 76, 90);
+    border-radius: 5px;
+    color:rgb(235, 238, 245);
+    display: inline;
+    font-size: 1.3em;
+    line-height: 16px;
+    padding: 15px 15px 15px 15px;}
 ul {list-style-type: square;}
