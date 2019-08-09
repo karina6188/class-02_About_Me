@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 'use.strict';
 
 // Say Hello and ask for user name
@@ -28,20 +29,27 @@ if (playGame) {
     break;
   default:
     console.log('Invalid Input...');
+    alert('Sorry that is not correct.');
     break;
   }
 
 
   // Questions 2 - Yes/No or Y/N
   var major = prompt('Q2. Did I major in Construction Management in college? Yes/No').toLowerCase();
-  if (major.startsWith('y')) {
+  switch (major.charAt(0)) {
+  case 'y':
     console.log('Q2. Major = correct');
     alert('You got it right!');
     point++;
-  }
-  else {
+    break;
+  case 'n':
     console.log('Q2. Major = wrong');
     alert('Sorry that is not correct.');
+    break;
+  default:
+    console.log('Invalud Input...');
+    alert('Sorry that is not correct.');
+    break;
   }
 
 
@@ -60,27 +68,37 @@ if (playGame) {
 
   // Question 4 - Yes/No or Y/N
   var country = prompt('Q4. Have I ever been to Spain? Yes/No').toLowerCase();
-  if (country.startWith(0) === 'y') {
+  switch (country.charAt(0)) {
+  case'y':
     console.log('Q4. Been to Spain = wrong');
     alert('Sorry that is not correct.');
-  }
-  else {
+    break;
+  case'n':
     console.log('Q4. Been to Spain = correct');
     alert('You got it right!');
     point++;
+    break;
+  default:
+    console.log('Invalid Input...');
+    alert('Sorry that is not correct.');
   }
 
 
   // Question 5 - Yes/No or Y/N
   var fruit = prompt('Q5. Do I like to eat bananas? Yes/No').toLowerCase();
-  if (fruit.startWith(0) === 'y') {
+  switch (fruit.charAt(0)) {
+  case 'n':
     console.log('Q5. Like Bananas = wrong');
     alert('Sorry that is not correct.');
-  }
-  else {
+    break;
+  case 'y':
     console.log('Q5. Like Bananas = correct');
     alert('You got it right!');
     point++;
+    break;
+  default:
+    console.log('Invalid Input...');
+    alert('Sorry that is not correct.');
   }
 
 
