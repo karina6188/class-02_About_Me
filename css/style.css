@@ -1,9 +1,13 @@
 a:link {color: rgb(78, 86, 202);}
 a:hover {color: rgb(96, 165, 245);}
+a:visited {color: rgb(25, 31, 97)}
 body {font-family: "Adobe Hebrew", "Times New Roman";
      background-color: rgb(235, 238, 245);
      margin: 10px;
      padding: 6px;}
+figure {margin: 10px 10px 10px 30px;}
+figcaption {font-size: 0.8em;
+            margin: 0px 0px 0px 340px;}
 footer {font-weight: bold;
        line-height:1em}
 h1 {background-color: rgb(5, 19, 75);
@@ -32,15 +36,14 @@ h4 {color: rgb(19, 33, 184);
    margin: 10px;}
 li.contactInfo {display: inline;
    margin-right: 30px;}
-img {float: right;
-   margin: 0px 50px 0px 0px;
+img {margin: 0px 50px 0px 0px;
    width: 500px;}
 ol {line-height: 19px;}
 p {font-size: 1em;
    line-height: 17px;
    margin: 10px;}
-p.funFactsRecessed {
-   padding-left: 20px;}
+p.funFactsIndent {
+   text-indent: 20px}
 p.nav {background-color: rgb(75, 76, 90);
    border-radius: 5px;
    color:rgb(235, 238, 245);
@@ -48,10 +51,4 @@ p.nav {background-color: rgb(75, 76, 90);
    font-size: 1.3em;
    line-height: 16px;
    padding: 15px 15px 15px 15px;}
-ul {list-style-type: square;}
-p {font-size:1em;
-   line-height:17px;
-   margin: 10px;}
-p.funFactsRecessed {
-   padding-left: 20px;}
 ul {list-style-type: square;}
