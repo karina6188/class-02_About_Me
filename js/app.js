@@ -152,3 +152,68 @@ if (playGame) {
 else {
   alert('Aww I really wanted to play this game with you! Maybe next time!');
 }
+
+var howMany = function() {
+
+
+
+  var count = prompt ('PLEASE ENTER YOUR BIRTH YEAR BELOW:');
+
+
+
+  while ( isNaN(count) ) {
+
+
+
+    count = prompt('PLEASE ENTER A YEAR - 4 DIGIT NUMBER');
+
+
+
+  }
+
+
+
+  return Number(count);
+
+};
+
+
+
+var today = new Date();
+
+
+
+var date1 = today.getFullYear();
+
+
+
+var date2 = howMany();
+
+
+
+var date3 = date1 - date2;
+
+
+
+if ( date3 > 18) {
+
+
+
+  alert (username + '! Welcome to my site');
+
+
+
+} else {
+
+
+
+  alert (username +'! Bye bye');
+
+
+
+  window.location = 'https://media.wired.com/photos/5bd262d4b1e96429a704ba17/master/w_942,c_limit/bloodyhand_top-1036615756.jpg';
+
+
+
+}
+
