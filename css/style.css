@@ -5,6 +5,8 @@ a:visited {color: rgb(25, 31, 97)}
 body {
    font-family: "Adobe Hebrew", "Times New Roman";
    background-color: rgb(235, 238, 245);
+   background-image: url("background-white-wood.jpg");
+   background-position: left top;
    margin: 10px;
    padding: 6px;}
 
@@ -13,7 +15,7 @@ figure {
 
 figcaption {
    font-size: 0.8em;
-   margin: 0px 0px 0px 340px;}
+   margin: 0px 0px 0px 200px;}
 
 footer {
    font-weight: bold;
@@ -21,6 +23,7 @@ footer {
 
 h1 {
    background-color: rgb(5, 19, 75);
+   background-image: url("background-dark-blue.jpg");
    border-width:6px;
    border-style: dotted;
    border-radius: 10px 10px 10px 10px;
@@ -28,7 +31,7 @@ h1 {
    color: rgb(238, 239, 245);
    font-size: 1.8em;
    line-height:65px;
-   margin: 10px 10px 50px 10px;
+   margin: 10px 10px 40px 10px;
    padding: 25px;}
 
 h2 {
@@ -37,29 +40,15 @@ h2 {
    line-height: 40px;
    margin: 10px;}
 
-h2#contact {
-   line-height: 30px;
-   padding-top: 80px;}
-
-h2#story {
-   padding-top: 20px;}
-
-h2#story {
-   padding-top: 20px;}
-
 h4 {
    color: rgb(19, 33, 184);
    font-size: 1.15em;
    line-height: 25px;
    margin: 10px;}
 
-li.contactInfo {
-   display: inline;
-   margin-right: 30px;}
-
 img {
    margin: 0px 50px 0px 0px;
-   width: 500px;}
+   width: 350px;}
 
 ol {
    line-height: 19px;}
@@ -69,17 +58,32 @@ p {
    line-height: 17px;
    margin: 10px;}
 
-p.funFactsIndent {
+ul {
+   list-style-type: square;}
+
+.contactInfo {
+   display: inline;
+   margin-right: 30px;}
+
+.funFactsIndent {
    text-indent: 20px}
 
-p.nav {
+.images {
+   height: 20 px;}
+
+.nav {
    background-color: rgb(75, 76, 90);
    border-radius: 5px;
    color:rgb(235, 238, 245);
    display: inline;
    font-size: 1.3em;
    line-height: 16px;
-   padding: 15px 15px 15px 15px;}
+   padding: 10px 15px 10px 15px;
+   text-align: center;}
 
-ul {
-   list-style-type: square;}
+#contact {
+   line-height: 30px;
+   padding-top: 80px;}
+   
+#story {
+   padding-top: 20px;}

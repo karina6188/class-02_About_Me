@@ -1,16 +1,51 @@
-/* eslint-disable no-unused-vars */
 'use.strict';
+
 
 // Say Hello and ask for user name
 var username = prompt('Hello! Thank you for visiting my profile! My name is Karina. What is your name?');
 console.log('Username is ' + username);
 
+
+// Get user's age
+
+var howMany = function() {
+
+  var count = prompt ('Please enter your birth year:');
+
+  while ( isNaN(count) ) {
+    count = prompt('Please enter your birth year in a 4-digit form.');
+  }
+
+  return Number(count);
+
+};
+
+
+var today = new Date();
+
+var date1 = today.getFullYear();
+
+var date2 = howMany();
+
+var date3 = date1 - date2;
+
+
+if ( date3 > 18) {
+  alert ('Welcome to my personal profile ' + username + '.');
+}
+else {
+  alert ('Hello ' + username + '! Welcome to my website.');
+}
+
+
 // Ask user to play a guessing game
-var playGame = confirm('Hi ' + username + '! It is so nice to meet you :) \nDo you want to play a little guessing game with me?');
+var playGame = confirm(username + ', do you want to play a little guessing game with me?');
+
 
 // Start the Game
 if (playGame) {
   confirm('Yay! Are you ready? Here comes the first question!');
+
 
   var point = 0;
   // Question 1 - Yes/No or Y/N
@@ -88,12 +123,12 @@ if (playGame) {
   var fruit = prompt('Q5. Do I like to eat bananas? Yes/No').toLowerCase();
   switch (fruit.charAt(0)) {
   case 'n':
-    console.log('Q5. Like Bananas = wrong');
-    alert('Sorry that is not correct.');
-    break;
-  case 'y':
     console.log('Q5. Like Bananas = correct');
     alert('You got it right!');
+    break;
+  case 'y':
+    console.log('Q5. Like Bananas = wrong');
+    alert('Sorry that is not correct.');
     point++;
     break;
   default:
@@ -171,67 +206,5 @@ else {
   alert('Aww I really wanted to play this game with you! Maybe next time!');
 }
 
-var howMany = function() {
 
-
-
-  var count = prompt ('PLEASE ENTER YOUR BIRTH YEAR BELOW:');
-
-
-
-  while ( isNaN(count) ) {
-
-
-
-    count = prompt('PLEASE ENTER A YEAR - 4 DIGIT NUMBER');
-
-
-
-  }
-
-
-
-  return Number(count);
-
-};
-
-
-
-var today = new Date();
-
-
-
-var date1 = today.getFullYear();
-
-
-
-var date2 = howMany();
-
-
-
-var date3 = date1 - date2;
-
-
-
-if ( date3 > 18) {
-
-
-
-  alert (username + '! Welcome to my site');
-
-
-
-} else {
-
-
-
-  alert (username +'! Bye bye');
-
-
-
-  window.location = 'https://media.wired.com/photos/5bd262d4b1e96429a704ba17/master/w_942,c_limit/bloodyhand_top-1036615756.jpg';
-
-
-
-}
 
